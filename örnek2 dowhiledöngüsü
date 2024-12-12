@@ -1,0 +1,28 @@
+package dongu;
+
+import java.util.Scanner;
+
+public class ödev6 {
+public static void main(String[] args) {
+Scanner scanner=new Scanner(System.in);
+System.out.println("lütfen bir sayı giriniz");
+int sonuc=0;
+do {
+	int i = scanner.nextInt();
+	sonuc +=i;
+	if (sonuc>0) {
+	
+	System.out.println("girdiğiniz sayı pozitiftir");
+	break;
+	}
+	else if (sonuc==0) {
+	System.out.println("girdiğiniz sayı 0 dır lütfen başka sayı giriniz");
+	break;
+	}
+	else {
+		System.out.println("girdiğiniz sayı negatiftir");
+		break;
+	}
+} while (true);
+}
+}
