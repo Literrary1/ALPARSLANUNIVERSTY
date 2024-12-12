@@ -1,0 +1,26 @@
+package dongu;
+
+import java.util.Scanner;
+
+public class ödev4 {
+public static void main(String[] args) {
+// for döngüsü le pozitif negatif sayı bulma
+	
+	Scanner scanner = new Scanner(System.in);
+		for(;;) {
+			System.out.println("bir sayı giriniz");
+			int sayi = scanner.nextInt();
+if (sayi==0) {
+	System.out.println("girdiğiniz sayı 0 dır lütfen başka bir sayı deneyiniz");
+	
+}else if (sayi<0) {
+	System.out.println("girdiğiniz sayi negatiftir");
+	
+}
+else {
+System.out.println("girdiğiniz sayı pozitiftir");
+}
+		}
+	
+}
+}
