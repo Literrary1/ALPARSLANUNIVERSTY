@@ -1,0 +1,14 @@
+package dongu;
+
+public class ödev2 {
+	    public static void main(String[] args) {
+	        int i = 1;
+	        
+	        // While döngüsü ile 1'den 10'a kadar yazdırma
+	        while (i <= 10) {
+	            System.out.println(i);
+	            i++;  
+	        }
+	    }
+	}
+	
