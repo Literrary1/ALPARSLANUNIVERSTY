@@ -1,0 +1,13 @@
+package dongu;
+
+public class ödev3 {
+	    public static void main(String[] args) {
+	        int i = 1;
+	        
+	        // Do-While döngüsü ile 1'den 10'a kadar yazdırma
+	        do {
+	            System.out.println(i);
+	            i++;
+	        } while (i <= 10);
+	    }
+	}
