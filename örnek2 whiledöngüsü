@@ -1,0 +1,22 @@
+package dongu;
+
+import java.util.Scanner;
+
+public class ödev5 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("lütfen bir sayı giriniz :");
+		int i = scanner.nextInt();
+		while (i != 0) {
+			if (i > 0) {
+				System.out.println("girdiğiniz sayı pozitiftir");
+				break;
+
+			} else {
+				System.out.println("girdiğiniz sayı negatiftir");
+				break;
+			}
+
+		}
+	}
+}
