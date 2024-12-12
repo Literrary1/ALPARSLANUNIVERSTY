@@ -1,0 +1,15 @@
+package dongu;
+
+public class ödev7 {
+	    public static void main(String[] args) {
+	        int N = 20; // Örneğin, 20'ye kadar olan sayılar
+
+	        System.out.println("Çift Sayılar:");
+	        for (int i = 1; i <= N; i++) {
+	            if (i % 2 == 0) {
+	                System.out.println(i);
+	            }
+	        }
+	    }
+	}
+
